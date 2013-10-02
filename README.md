@@ -1,4 +1,4 @@
 RSIAdditions
 ============
 
-A Few essential categories for MacOS/iOS Development.
+A few essential categories for MacOS/iOS Development.
