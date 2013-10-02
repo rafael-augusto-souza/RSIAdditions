@@ -10,4 +10,14 @@
 
 @interface NSString (RSIAdditions)
 
+- (NSString *)md5;
+- (NSString *)sha1;
+- (NSString *)stringWithURLEncode;
+- (NSString *)stringWithURLDecode;
+- (NSString *)stringByStrippingWhitespace;
+- (NSString *)substringFrom:(NSInteger)from to:(NSInteger)to;
+
+- (BOOL)containsString:(NSString *)string;
+- (BOOL)isEmpty;
+
 @end
